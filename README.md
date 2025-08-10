@@ -18,7 +18,7 @@ Repositorio de ejercicios que realizo en el laboratorio de IPC1
 
 |----------|-------------------------------|---------|
 
-| 20240174 | Shiro William Salas Pérez      | C       |
+| 2024 | Shiro William Salas Pérez      | C       |
 
 
 
