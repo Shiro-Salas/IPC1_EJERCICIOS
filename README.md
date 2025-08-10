@@ -8,4 +8,4 @@ Repositorio de ejercicios que realizo en el laboratorio de IPC1
 
 | Carnet   | Nombre                        | Sección |
 |----------|-------------------------------|---------|
-| 2024017 | Shiro William Salas Pérez      | C       |
+| 20240174 | Shiro William Salas Pérez      | C       |
