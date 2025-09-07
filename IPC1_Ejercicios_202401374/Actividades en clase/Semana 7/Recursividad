@@ -1,0 +1,23 @@
+Qué es la recursividad y cómo funciona?
+
+	* Qué es?
+		La recursividad es cuando una función se llama a sí misma para resolver un problema. La idea es dividir un problema grande en problemas más pequeños, hasta llegar a un caso base que se pueda resolver directamente.
+
+	* Cómo funciona:
+	
+		forma general del uso de la recursividad:
+
+		funcionRecursiva(parametros) {
+		    if (condicion_base) {
+		        return valor_base;  // Caso base: detiene la recursión
+		    } else {
+		        return algo_con(funcionRecursiva(parametros_mas_pequenos));
+		        // Caso recursivo: la función se llama a sí misma
+		    }
+		}
+
+		Sí, eso de que “los cálculos se resuelven en orden inverso” pasa siempre en recursión, y tiene que ver con cómo funciona la pila de llamadas en la memoria:
+
+		+ Cada vez que una función recursiva se llama a sí misma, la ejecución se pausa en ese punto y se guarda en la pila de llamadas.
+
+		+ Cuando se llega al caso base, se empieza a resolver cada llamada pendiente en orden inverso (de la última llamada a la primera).
